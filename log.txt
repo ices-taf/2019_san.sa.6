@@ -1,8 +1,8 @@
-Started analysis @ 21:04:25, 22 April 2019
+Started analysis @ 21:32:53, 22 April 2019
 running
   '..LocalRinstallation..\x64\Rterm.exe --slave --no-restore -e icesTAF::sourceAll();warnings()'
 
-[21:04:25] data.R running...
+[21:32:54] data.R running...
 
 Attaching package: 'dplyr'
 
@@ -14,10 +14,10 @@ The following objects are masked from 'package:base':
 
     intersect, setdiff, setequal, union
 
-[21:04:26]   data.R done
-[21:04:26] output.R running...
-[21:04:26]   output.R done
-[21:04:26] report.R running...
+[21:32:54]   data.R done
+[21:32:54] output.R running...
+[21:32:54]   output.R done
+[21:32:54] report.R running...
 
 
 processing file: report.Rmd
@@ -35,13 +35,87 @@ label: libraries (with options)
 List of 1
  $ include: logi FALSE
 
-Quitting from lines 13-16 (report.Rmd) 
 
-Error in library(captioner) : there is no package called 'captioner'
-In addition: Warning messages:
+  |                                                                       
+  |..............                                                   |  21%
+  ordinary text without R code
+
+
+  |                                                                       
+  |...................                                              |  29%
+label: chunk_setup (with options) 
+List of 1
+ $ include: logi FALSE
+
+
+  |                                                                       
+  |.......................                                          |  36%
+  ordinary text without R code
+
+
+  |                                                                       
+  |............................                                     |  43%
+label: pander_settings (with options) 
+List of 1
+ $ include: logi FALSE
+
+
+  |                                                                       
+  |................................                                 |  50%
+  ordinary text without R code
+
+
+  |                                                                       
+  |.....................................                            |  57%
+label: caption_counters (with options) 
+List of 1
+ $ include: logi FALSE
+
+
+  |                                                                       
+  |..........................................                       |  64%
+   inline R code fragments
+
+
+  |                                                                       
+  |..............................................                   |  71%
+label: catch_table
+
+  |                                                                       
+  |...................................................              |  79%
+  ordinary text without R code
+
+
+  |                                                                       
+  |........................................................         |  86%
+label: catch_plot (with options) 
+List of 2
+ $ fig.cap : symbol cap_in
+ $ fig.path: chr "report/summary.png"
+
+
+  |                                                                       
+  |............................................................     |  93%
+  ordinary text without R code
+
+
+  |                                                                       
+  |.................................................................| 100%
+label: catch_plot2 (with options) 
+List of 2
+ $ fig.cap : symbol cap_in
+ $ fig.path: chr "report/summary.png"
+
+
+output file: report.knit.md
+
+"D:/programs/RStudio/bin/pandoc/pandoc" +RTS -K512m -RTS report.utf8.md --to docx --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output report.docx --smart --table-of-contents --toc-depth 3 --highlight-style tango --reference-docx "bootstrap\data\reportTemplate.docx" 
+
+Output created: report.docx
+[21:32:58]   report.R done
+Warning messages:
 1: package 'icesTAF' was built under R version 3.5.3 
 2: package 'htmlTable' was built under R version 3.5.3 
-[21:04:28]   report.R failed
 Warning messages:
 1: package 'icesTAF' was built under R version 3.5.3
 2: package 'htmlTable' was built under R version 3.5.3
