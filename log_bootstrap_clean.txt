@@ -1,0 +1,4 @@
+Started analysis @ 21:04:23, 22 April 2019
+running
+  '..LocalRinstallation..\x64\Rterm.exe --slave --no-restore -e icesTAF::clean('bootstrap');warnings()'
+

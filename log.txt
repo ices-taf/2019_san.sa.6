@@ -1,0 +1,47 @@
+Started analysis @ 21:04:25, 22 April 2019
+running
+  '..LocalRinstallation..\x64\Rterm.exe --slave --no-restore -e icesTAF::sourceAll();warnings()'
+
+[21:04:25] data.R running...
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+[21:04:26]   data.R done
+[21:04:26] output.R running...
+[21:04:26]   output.R done
+[21:04:26] report.R running...
+
+
+processing file: report.Rmd
+
+  |                                                                       
+  |                                                                 |   0%
+  |                                                                       
+  |.....                                                            |   7%
+  ordinary text without R code
+
+
+  |                                                                       
+  |.........                                                        |  14%
+label: libraries (with options) 
+List of 1
+ $ include: logi FALSE
+
+Quitting from lines 13-16 (report.Rmd) 
+
+Error in library(captioner) : there is no package called 'captioner'
+In addition: Warning messages:
+1: package 'icesTAF' was built under R version 3.5.3 
+2: package 'htmlTable' was built under R version 3.5.3 
+[21:04:28]   report.R failed
+Warning messages:
+1: package 'icesTAF' was built under R version 3.5.3
+2: package 'htmlTable' was built under R version 3.5.3
