@@ -1,16 +1,9 @@
-# Rstudio stuff
+# ignore rstudio files
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
 *.Rproj
 
-# taf stuff to ignore
-/bootstrap/data/
-/bootstrap/config/
-/bootstrap/library/
-/bootstrap/software/
-/data/
-/model/
-/output/
-/report/
+# ignore installed packages
+bootstrap/library/
