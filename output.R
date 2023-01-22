@@ -31,5 +31,6 @@ cat(sag_upload, file = "output/sag_upload.xml")
 
 
 # write out summary data as csv
-write.taf(as.data.frame(sag_info), dir = "output")
+sag_info <- as.data.frame(sag_info)
+write.taf(sag_info, dir = "output")
 write.taf(sag_fishdata, dir = "output")
