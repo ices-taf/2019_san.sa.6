@@ -10,7 +10,7 @@ output:
 ---
 
 ```{r libraries, include=FALSE}
-library(captioner)
+taf.library(captioner)
 library(knitr)
 library(pander)
 ```
